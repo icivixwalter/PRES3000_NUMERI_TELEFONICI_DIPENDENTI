@@ -1,0 +1,950 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PERS",
+				"PERSONALE"
+			],
+			[
+				"PE",
+				"PENSIONE"
+			],
+			[
+				"w",
+				"white3"
+			],
+			[
+				"whi",
+				"white2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+ADD+COMMIT+PUSH.BAT",
+			"settings":
+			{
+				"buffer_size": 2500,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "\n::"
+					},
+					"AwAAAEkIAAAAAAAASggAAAAAAAAAAAAASggAAAAAAABLCAAAAAAAAAAAAABLCAAAAAAAAEwIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQgAAAAAAABJCAAAAAAAAAAAAAAAgFxA"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": " Ese"
+					},
+					"BAAAAEwIAAAAAAAATQgAAAAAAAAAAAAATQgAAAAAAABOCAAAAAAAAAAAAABOCAAAAAAAAE8IAAAAAAAAAAAAAE8IAAAAAAAAUAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAgAAAAAAABMCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "guo"
+					},
+					"AwAAAFAIAAAAAAAAUQgAAAAAAAAAAAAAUQgAAAAAAABSCAAAAAAAAAAAAABSCAAAAAAAAFMIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUAgAAAAAAABQCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": " prima"
+					},
+					"BgAAAFMIAAAAAAAAVAgAAAAAAAAAAAAAVAgAAAAAAABVCAAAAAAAAAAAAABVCAAAAAAAAFYIAAAAAAAAAAAAAFYIAAAAAAAAVwgAAAAAAAAAAAAAVwgAAAAAAABYCAAAAAAAAAAAAABYCAAAAAAAAFkIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUwgAAAAAAABTCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": " il"
+					},
+					"AwAAAFkIAAAAAAAAWggAAAAAAAAAAAAAWggAAAAAAABbCAAAAAAAAAAAAABbCAAAAAAAAFwIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWQgAAAAAAABZCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " pull"
+					},
+					"BQAAAFwIAAAAAAAAXQgAAAAAAAAAAAAAXQgAAAAAAABeCAAAAAAAAAAAAABeCAAAAAAAAF8IAAAAAAAAAAAAAF8IAAAAAAAAYAgAAAAAAAAAAAAAYAgAAAAAAABhCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXAgAAAAAAABcCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": " pr"
+					},
+					"AwAAAGEIAAAAAAAAYggAAAAAAAAAAAAAYggAAAAAAABjCAAAAAAAAAAAAABjCAAAAAAAAGQIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQgAAAAAAABhCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": " la"
+					},
+					"AwAAAGQIAAAAAAAAZQgAAAAAAAAAAAAAZQgAAAAAAABmCAAAAAAAAAAAAABmCAAAAAAAAGcIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZAgAAAAAAABkCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAGcIAAAAAAAAaAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZwgAAAAAAABnCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					5,
+					"left_delete",
+					null,
+					"BQAAAGcIAAAAAAAAZwgAAAAAAAABAAAAIGYIAAAAAAAAZggAAAAAAAABAAAAYWUIAAAAAAAAZQgAAAAAAAABAAAAbGQIAAAAAAAAZAgAAAAAAAABAAAAIGMIAAAAAAAAYwgAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAAaAgAAAAAAABoCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "er"
+					},
+					"AgAAAGMIAAAAAAAAZAgAAAAAAAAAAAAAZAgAAAAAAABlCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwgAAAAAAABjCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": " la"
+					},
+					"AwAAAGUIAAAAAAAAZggAAAAAAAAAAAAAZggAAAAAAABnCAAAAAAAAAAAAABnCAAAAAAAAGgIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZQgAAAAAAABlCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": " sincroni"
+					},
+					"CQAAAGgIAAAAAAAAaQgAAAAAAAAAAAAAaQgAAAAAAABqCAAAAAAAAAAAAABqCAAAAAAAAGsIAAAAAAAAAAAAAGsIAAAAAAAAbAgAAAAAAAAAAAAAbAgAAAAAAABtCAAAAAAAAAAAAABtCAAAAAAAAG4IAAAAAAAAAAAAAG4IAAAAAAAAbwgAAAAAAAAAAAAAbwgAAAAAAABwCAAAAAAAAAAAAABwCAAAAAAAAHEIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaAgAAAAAAABoCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "zzazione"
+					},
+					"CAAAAHEIAAAAAAAAcggAAAAAAAAAAAAAcggAAAAAAABzCAAAAAAAAAAAAABzCAAAAAAAAHQIAAAAAAAAAAAAAHQIAAAAAAAAdQgAAAAAAAAAAAAAdQgAAAAAAAB2CAAAAAAAAAAAAAB2CAAAAAAAAHcIAAAAAAAAAAAAAHcIAAAAAAAAeAgAAAAAAAAAAAAAeAgAAAAAAAB5CAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcQgAAAAAAABxCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "\ng"
+					},
+					"AgAAAHkIAAAAAAAAeggAAAAAAAAAAAAAeggAAAAAAAB7CAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeQgAAAAAAAB5CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "it"
+					},
+					"AgAAAHsIAAAAAAAAfAgAAAAAAAAAAAAAfAgAAAAAAAB9CAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAewgAAAAAAAB7CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": " pull"
+					},
+					"BQAAAH0IAAAAAAAAfggAAAAAAAAAAAAAfggAAAAAAAB/CAAAAAAAAAAAAAB/CAAAAAAAAIAIAAAAAAAAAAAAAIAIAAAAAAAAgQgAAAAAAAAAAAAAgQgAAAAAAACCCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfQgAAAAAAAB9CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAIIIAAAAAAAAgwgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgggAAAAAAACCCAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "Packages/Pandoc/pandoc.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Pandoc/pandoc.sublime-build",
+					""
+				],
+				[
+					"Packages/Pandoc/pandoc.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Pandoc/pandoc.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/MarkdownToCSV.sublime-build",
+					""
+				],
+				[
+					"Packages/User/RunPython.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/RunPython.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"PREVIEW",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"HTMEL",
+				"Markdown HTML Preview"
+			],
+			[
+				"VIEW",
+				"View In Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"view",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"toggl",
+				"View: Toggle Tabs"
+			],
+			[
+				"to",
+				"View: Toggle Menu"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"show",
+				"Table Editor: Disable 'detect_header' for current view"
+			],
+			[
+				"MAR",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"VIEWS",
+				"View In Browser"
+			],
+			[
+				"PREVIE",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"PREV",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"PREVI",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"PREVIEWS",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"SAVE",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"sva",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"togl",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"terminus",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"MarkdownPreview: Save Preview to HTML",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"terminal",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"build ",
+				"Build With: Markdown to HTML"
+			],
+			[
+				"termin",
+				"Terminal: Open in project folder"
+			],
+			[
+				"save",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pand",
+				"Build With: pandoc - Run"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"new",
+				"Build: New Build System"
+			],
+			[
+				"TABLE",
+				"MarkdownTableFormatter: format table"
+			],
+			[
+				"Markdown Table Formatter",
+				"MarkdownTableFormatter: format table"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"html",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pach",
+				"Package Control: Clear Cache Directory"
+			],
+			[
+				"prev",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Preview in Browser",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previeww",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mardkwodn",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdowntabe",
+				"MarkdownTableFormatter: format table"
+			],
+			[
+				"csv",
+				"CSV Record View"
+			],
+			[
+				"forma",
+				"MarkdownTableFormatter: format table"
+			],
+			[
+				"MarkdownTableFormatter",
+				"MarkdownTableFormatter: format table"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"v",
+				"View In Browser"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"markdownpr",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"CSV",
+				"Rainbow CSV: Enable Simple"
+			],
+			[
+				"PACKA",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"mark",
+				"Build With: Markdown"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packat",
+				"Package Control: New Channel…"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 231.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML"
+	],
+	"file_history":
+	[
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}_CASA.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}_UFFICIO.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/Zip_N70_ElencoFile.txt",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/.gitignore",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/Project_IMPEGNI_DI_SPESA.sublime-project",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+ADD+COMMIT+PUSH.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_PULL_LOG.txt",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_PULL.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_OPEN_OVERLEAF.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/CANCELLA_{MDB+OBJECT+PROJECT}.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_OpenGitHub.bat",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI.html",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI.md",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_A.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/MD/NUMERI_TELEFONICI_Dipendenti in Servizio.md",
+		"/C/Users/walter.rossi/AppData/Local/Temp/7zOC8A6C2CC/ELENCO_MARKDOWN_CON_TITOLI_COLLASSABILI.MD",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_Z.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_D.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/README.MD",
+		"/C/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/TUTORIAL_SUBLIMETEXT.MD",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_E.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/MD/ELENCO_MARKDOWN_TUTTO.MD",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_C.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI_03_collassabili.html",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_T.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_P.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_R.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_V.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_U.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_S.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_Q.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_O.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_N.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_M.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_MARKDOWN_TUTTO.html",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_L.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_I.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_F.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_G.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_C.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_Z.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_V.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_U.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_T.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_S.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_R.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_Q.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_D.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_E.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_F.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_I.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_O.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_N.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_M.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_G.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_L.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI_03_collassabili.html",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_B.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI_02.html",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/MD/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI_02.html",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_B.JS",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/MD/NUMERI_TELEFONICI_Dipendenti in Servizio.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/Project_NUMERI_TELEFONICI_DIPENDENTI.sublime-project",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI.html",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/README.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_A.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI.JS",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_MARKDOWN_TUTTO.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_MARKDOWN_CON_TITOLI_NON_COLLASSABILI.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_MARKDOWN_CON_TITOLI_COLLASSABILI.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/test.md",
+		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/User/Markdown to HTML.sublime-build",
+		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/User/save_md_preview.sublime-macro",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/rubrica.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_MARKDOWN.MD",
+		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/2025-05-19.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/FILE_CSV.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/file_trasformato.csv",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/NUMERI_TELEFONICI_Dipendenti_in_Servizio.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/PRES3000_N00_GESTIONE_LINK.lnk",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_MARKDOWN.html",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/NUMERI_TELEFONICI_Dipendenti_in_Servizio.sublime-project",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/NUMERI_TELEFONICI_Dipendenti_in_Servizio.msg",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/NUMERI_TELEFONICI_Dipendenti_in_Servizio.ods",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_MARKDOWN_CON_TITOLI.html",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/ELENCO_MARKDOWN_CON_TITOLI.MD",
+		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/User/RunPython.sublime-build",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/markdown_to_csv.py",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/export_md_to_csv.py",
+		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/User/MarkdownToCSV.sublime-build",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti_in_Servizio/MarkdownToCSV.sublime-build",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio/NUMERI_TELEFONICI_Dipendenti_in_Servizio.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio/NUMERI_TELEFONICI_Dipendenti in Servizio.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio/NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-project",
+		"/C/CASA/GE_MARINO/GE_CASA/BANCA/Notiziario/NotiziarioEconominco/Notizie_Economiche.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-project",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-workspace",
+		"/Y/LAVORI_PUBBLICI_FINO_AL_30_09_2019/Valter/OPERE_PUBBLICHE/112_SETTORE_LAVORI_PUBBLICI/01_LAVORI_PUBBLICI/BDAP_PROGETTI/209_{MESSA IN SICUREZZA DEL FIUME COSA}_{W_R}/209_{MESSA IN SICUREZZA DEL FIUME COSA}.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_N26_SALARIO_ACCESSORIO/PEO_MICRO_ORGANIZZAZIONI/PEO/ORDINE_ALFABETICO_PEO_QryTb26_11_GROUP_TUTTE_LE_PEO_XANNO.MD",
+		"/J/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/FORM_CARICAMENTO_AUTOMATICO/Analisi/ANALISI_FORM_CARICAMENTO_AUTOMATICO.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHVI_MDB/LLPP_GESTIONE/LPP_ANALISI/ATTI_TB01_GESTIONE/LLPP_ATTI_GESTIONE_Analisi_provisoria.txt",
+		"/C/CASA/CDM/GE_COND/ANAGR/ANAGR_ANALISI/ANAGR_TB04_PEC_EMAIL.md",
+		"/C/CASA/LTT/ANALISI/SublimeText_Analisi/Lotto_Progetto/Lotto_Progetto.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio",
+		"/C/Users/walter.rossi/Desktop/FF Documento Progettuale Prot 0076218030.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio.md",
+		"/C/Users/walter.rossi/Desktop/Documento1.txt",
+		"/Y/LAVORI_PUBBLICI_FINO_AL_30_09_2019/Valter/OPERE_PUBBLICHE/112_SETTORE_LAVORI_PUBBLICI/01_LAVORI_PUBBLICI/GESTIONE_LLPP.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-project",
+		"/C/CASA/CDM/LeTorri/2023/ASSEMBLEA_ORDINARIA/2023_06_09/05_MDB/ANGRA/PROJECT_T10_ANAGR_ANALISI/ANAGRAFICA_ANALISI.MD",
+		"/C/TMP/TMP_oggi/DA_SISTEMARE/ACANFORA_ACCESSO_AGLI_ATTI/VERBALE DEL 05.06.2023.md",
+		"/C/Program Files/WinRAR/Licenza.Txt",
+		"/C/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/GUIDA_DI_RIFERIMENTO_OGGETTI_ACCESS.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.txt",
+		"/C/CASA/LINGUAGGI/ZIP/RAR/RAR_MANUALE_ITALIANO.TXT",
+		"/C/TMP/TMP_oggi/MEMO_7_2021.MD",
+		"/C/TMP/TMP_oggi/RAR_MANUALE_ITALIANO.TXT",
+		"/C/TMP/TMP_oggi/DA_SISTEMARE/GE_OGGETTI_DB_MDB_(StudioFiltroForEach).mdb",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MENU_GESTIONE/MENU_GESTIONE_SUBLIME_TEXT_ANALISI/PROJECT_MENU_GESTIONE_SublimeText_Project.sublime-project",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MENU_GESTIONE/MENU_GESTIONE_SUBLIME_TEXT_ANALISI/MENU_GESTIONE_SublimeText.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MENU_GESTIONE/MENU_GESTIONE_SUBLIME_TEXT_ANALISI/MENU_GESTIONE_SublimeText_Project.sublime-workspace",
+		"/C/TMP/TMP_oggi/DA_PROTOCOLLARE/MODELLI_AVVOCATURA_RISPOSTE/GIZA/MEMO_7_2021.txt",
+		"/C/CASA/CDM/MEMO_7_2021.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/FORM/CIVILIA_FrmTb01_12_GRUPPO_ATTO.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/FORM/CIVILIA_FrmTb01_11_GRUPPO_ANNO.MD"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 111.2,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_SALVATAGGI_NUMERI_TELEFONICI_DIPENENTI_UFFICIO",
+			"_SALVATAGGI_IMPEGNI_UFFICIO",
+			"_SALVATAGGI_IMPEGNI_CASA",
+			"\\",
+			"c:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\IMPEGNI\\",
+			"@numeri@telefonici",
+			"schede",
+			"2025",
+			"iacuissi",
+			"elenco",
+			"open",
+			"tutti",
+			"costanti",
+			"LETT_C",
+			"\\",
+			"dettagli",
+			",",
+			"|",
+			"----------------------------------------------------------------------------------------------",
+			";",
+			"^(.*)$",
+			"cesare",
+			"alessandro"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_SALVATAGGI_NUMERI_TELEFONICI_DIPENDENTI_CASA",
+			"c:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\PRES3000_GESTIONE\\ARCHIVI_PRES3000\\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\\",
+			"| \\1 |"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+ADD+COMMIT+PUSH.BAT",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2179,
+								2179
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"rainbow_checked": true,
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 684.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 126.400001526
+	},
+	"output.Terminus":
+	{
+		"height": 138.399993896
+	},
+	"output.exec":
+	{
+		"height": 126.400001526
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.markdown":
+	{
+		"height": 126.400001526
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Markdown to HTML.sublime-build",
+	"project": "Project_NUMERI_TELEFONICI_DIPENDENTI.sublime-project",
+	"replace":
+	{
+		"height": 52.8
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"html",
+				"PRES3000_NUMERI_TELEFONICI_DIPENDENTI\\OBJECT\\HTML\\ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\NUMERI_TELEFONICI_Dipendenti in Servizio\\NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-project"
+			]
+		],
+		"width": 389.6
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 505.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

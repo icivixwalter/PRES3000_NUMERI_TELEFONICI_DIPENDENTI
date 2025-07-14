@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Elenco Telefonico</title>
+  <style>
+    /* Stili base per il layout e la tabella */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 30px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .sezione {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .sezione summary {
+      background-color: #007acc;
+      color: white;
+      padding: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px 5px 0 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📞 Elenco Telefonico Dipendenti</h1>
+
+  <!-- Input per la ricerca dinamica nell'elenco -->
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="🔍 Cerca per nome, telefono, email o note..."
+    onkeyup="filterAll()"
+  />
+
+  <!-- Div dove verrà generato dinamicamente l'elenco -->
+  <div id="contenitoreElenco"></div>
+
+  <!-- Inclusione degli script con i dati degli elenchi A, B, C -->
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_A.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_B.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_C.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_D.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_E.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_F.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_G.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_I.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_L.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_M.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_N.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_O.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_P.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_Q.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_R.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_S.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_T.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_U.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_V.JS"></script>
+  <script src="ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_Z.JS"></script>
+
+  <script>
+    // Uniamo i dati di elencoA, elencoB e elencoC in un unico array tuttiContatti.
+    // Se una variabile non è definita, la sostituiamo con un array vuoto.
+    const tuttiContatti = [
+  ...(typeof elencoA !== 'undefined' ? elencoA : []),
+  ...(typeof elencoB !== 'undefined' ? elencoB : []),
+  ...(typeof elencoC !== 'undefined' ? elencoC : []),
+  ...(typeof elencoD !== 'undefined' ? elencoD : []),
+  ...(typeof elencoE !== 'undefined' ? elencoE : []),
+  ...(typeof elencoF !== 'undefined' ? elencoF : []),
+  ...(typeof elencoG !== 'undefined' ? elencoG : []),
+  ...(typeof elencoI !== 'undefined' ? elencoI : []),
+  ...(typeof elencoL !== 'undefined' ? elencoL : []),
+  ...(typeof elencoM !== 'undefined' ? elencoM : []),
+  ...(typeof elencoN !== 'undefined' ? elencoN : []),
+  ...(typeof elencoO !== 'undefined' ? elencoO : []),
+  ...(typeof elencoP !== 'undefined' ? elencoP : []),
+  ...(typeof elencoQ !== 'undefined' ? elencoQ : []),
+  ...(typeof elencoR !== 'undefined' ? elencoR : []),
+  ...(typeof elencoS !== 'undefined' ? elencoS : []),
+  ...(typeof elencoT !== 'undefined' ? elencoT : []),
+  ...(typeof elencoU !== 'undefined' ? elencoU : []),
+  ...(typeof elencoV !== 'undefined' ? elencoV : []),
+  ...(typeof elencoZ !== 'undefined' ? elencoZ : [])
+];
+
+    // Funzione che crea la tabella raggruppata per lettera iniziale del nome
+    function creaTabellaPerLettere() {
+      const contenitore = document.getElementById("contenitoreElenco");
+      contenitore.innerHTML = ""; // Puliamo il contenitore prima di aggiungere i dati
+
+      // Otteniamo le lettere uniche (maiuscole) con cui iniziano i nomi
+      const lettere = [...new Set(tuttiContatti.map(c => c.nome.charAt(0).toUpperCase()))].sort();
+
+      // Per ogni lettera, creiamo una sezione con i contatti corrispondenti
+      lettere.forEach(lettera => {
+        // Filtriamo i contatti che iniziano con la lettera corrente
+        const sezioneContatti = tuttiContatti.filter(c => c.nome.charAt(0).toUpperCase() === lettera);
+
+        // Creiamo il tag <details> che contiene la sezione (espandibile)
+        const sezione = document.createElement("details");
+        sezione.className = "sezione";
+        sezione.open = false; // per default la sezione è chiuse se vuoi aperta imposta a True
+
+        // Creiamo il summary della sezione, visibile come intestazione cliccabile
+        const summary = document.createElement("summary");
+        summary.textContent = `🔤 Lettera ${lettera}`;
+        sezione.appendChild(summary);
+
+        // Creiamo la tabella HTML con intestazioni e corpo dinamico
+        const tabella = document.createElement("table");
+        tabella.innerHTML = `
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Telefono</th>
+              <th>Email</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${sezioneContatti.map(c => `
+              <tr>
+                <td>${c.nome}</td>
+                <td>${c.telefono}</td>
+                <td>${c.email}</td>
+                <td>${c.note || ""}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        `;
+
+        // Aggiungiamo la tabella alla sezione e la sezione al contenitore principale
+        sezione.appendChild(tabella);
+        contenitore.appendChild(sezione);
+      });
+    }
+
+    // Funzione per filtrare i contatti in base al testo inserito nell'input di ricerca
+    function filterAll() {
+      const filtro = document.getElementById("searchInput").value.toLowerCase();
+
+      // Filtriamo tuttiContatti controllando se uno dei campi contiene il testo
+      const filtrati = tuttiContatti.filter(c =>
+        c.nome.toLowerCase().includes(filtro) ||
+        c.telefono.toLowerCase().includes(filtro) ||
+        c.email.toLowerCase().includes(filtro) ||
+        (c.note && c.note.toLowerCase().includes(filtro))
+      );
+
+      // Mostriamo i risultati filtrati
+      creaTabellaFiltrata(filtrati);
+    }
+
+    // Funzione simile a creaTabellaPerLettere, ma lavora su dati già filtrati
+    function creaTabellaFiltrata(dati) {
+      const contenitore = document.getElementById("contenitoreElenco");
+      contenitore.innerHTML = ""; // Puliamo il contenitore
+
+      // Otteniamo le lettere presenti nel sottoinsieme filtrato
+      const lettere = [...new Set(dati.map(c => c.nome.charAt(0).toUpperCase()))].sort();
+
+      // Creiamo per ogni lettera una sezione con i contatti corrispondenti
+      lettere.forEach(lettera => {
+        const sezioneContatti = dati.filter(c => c.nome.charAt(0).toUpperCase() === lettera);
+
+        const sezione = document.createElement("details");
+        sezione.className = "sezione";
+        sezione.open = true;
+
+        const summary = document.createElement("summary");
+        summary.textContent = `🔤 Lettera ${lettera}`;
+        sezione.appendChild(summary);
+
+        const tabella = document.createElement("table");
+        tabella.innerHTML = `
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Telefono</th>
+              <th>Email</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${sezioneContatti.map(c => `
+              <tr>
+                <td>${c.nome}</td>
+                <td>${c.telefono}</td>
+                <td>${c.email}</td>
+                <td>${c.note || ""}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        `;
+        sezione.appendChild(tabella);
+        contenitore.appendChild(sezione);
+      });
+    }
+
+    // Alla fine carichiamo inizialmente tutta la lista completa
+    creaTabellaPerLettere();
+  </script>
+</body>
+</html>

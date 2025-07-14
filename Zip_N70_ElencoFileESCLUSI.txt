@@ -1,0 +1,14 @@
+//ATTENZIONE QUESTE SONO LE CARTELLE ESCLUSE
+//ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva 
+//SE VUOI ESCLUDERE LE SOTTO CARTELLA copia questi esempi: 
+//questo il secondo esempio con path e file liberi senza .\ e sembra che funziona
+//le sottocartelle invece dovrebbero essere scritte cosi:
+// .\SALVATAGGI_2023_2024
+// .\AA_SALVATAGGI
+//Non sono sicuro che con .\xxx esclude la sottocartella comunque provare.
+//
+//............................................................................//
+
+//ESCLUSIONI
+//............................................................................
+AA_SALVATAGGI

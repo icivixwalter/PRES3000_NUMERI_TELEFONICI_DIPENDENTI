@@ -1,0 +1,62 @@
+[01] TEST DI CREAZIONE DEL FILE LOG  
+[02] FILE LOG DI STAMPA DEL COMANDO BAT PULL_LOG.BAT 
+ 
+ 
+[02] Data: 24/02/2025 Ora:  8:32:30,64 
+ 
+ 
+ 
+ 
+ 
+[24/02/2025  8:32:30,66] "03 Inizio esecuzione dello script" 
+[24/02/2025  8:32:30,67] Eseguendo comando: "04 CD c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\" 
+[24/02/2025  8:32:30,69] Eseguendo comando: "05 DIR" 
+ Il volume nell'unit… C Š Acer
+ Numero di serie del volume: 9AC9-8549
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI
+
+17/02/2025  08:19    <DIR>          .
+17/02/2025  08:19    <DIR>          ..
+22/01/2025  11:30                15 .gitignore
+21/02/2025  14:18    <DIR>          AA_SALVATAGGI
+22/01/2025  11:30             4.854 AA__________________________________________________________________________AA.txt
+22/01/2025  11:30             1.304 CANCELLA_{MDB+OBJECT+PROJECT}.BAT
+22/01/2025  11:30               578 git_OpenGitHub.bat
+28/01/2025  14:26               770 git_OPEN_OVERLEAF.BAT
+28/01/2025  12:29             5.735 git_PULL.BAT
+24/02/2025  08:32               397 git_PULL_LOG.txt
+28/01/2025  13:22             2.469 git_STATUS+ADD+COMMIT+PUSH.BAT
+28/01/2025  13:18             2.391 git_STATUS.BAT
+21/02/2025  14:19               331 git_STATUS_LOG.txt
+20/02/2025  10:47    <DIR>          MDB
+13/02/2025  12:26    <DIR>          OBJECT
+30/01/2025  12:42                53 Project_IMPEGNI_DI_SPESA.sublime-project
+20/02/2025  11:03           119.311 Project_IMPEGNI_DI_SPESA.sublime-workspace
+22/01/2025  11:30               839 README.md
+21/02/2025  10:59    <DIR>          TMP
+22/01/2025  11:30            26.144 ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT
+22/01/2025  11:30                56 ZIP_7ZIP_________________________________________________________________ZZ.txt
+22/01/2025  11:30             4.180 Zip_N70_CRIPTA.bat
+22/01/2025  11:30             4.735 Zip_N70_DECODIFICA.bat
+28/01/2025  13:25             1.112 Zip_N70_ElencoFile.txt
+22/01/2025  11:30               648 Zip_N70_ElencoFileESCLUSI.txt
+22/01/2025  11:30                 0 Zip_N70_RAR_____________________________________________________________RAR.txt
+22/01/2025  11:30                 0 Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
+22/01/2025  11:30             5.089 ZIP_RAR.BAT
+22/01/2025  11:30             2.361 Zip_rar_C.bat
+22/01/2025  11:30             2.179 Zip_rar_C_GitHub.bat
+22/01/2025  11:30                 0 ZZ__________________________________________________________________________ZZ.txt
+              25 File        185.551 byte
+               6 Directory  173.694.668.800 byte disponibili
+[24/02/2025  8:32:30,72] Eseguendo comando: "06 GIT STATUS" 
+git: 'STATUS' is not a git command. See 'git --help'.
+[24/02/2025  8:32:31,14] Eseguendo comando: "07 TIMEOUT /T 3 /NOBREAK" 
+
+In attesa da 3 secondi. Per uscire, premere CTRL+C...210
+[24/02/2025  8:32:34,14] Eseguendo comando: "08 GIT PULL" 
+git: 'PULL' is not a git command. See 'git --help'.
+[24/02/2025  8:32:34,31] Eseguendo comando: "09 TIMEOUT /T 5 /NOBREAK" 
+
+In attesa da 5 secondi. Per uscire, premere CTRL+C...43210
+[24/02/2025  8:32:39,13] "10 Fine esecuzione dello script" 

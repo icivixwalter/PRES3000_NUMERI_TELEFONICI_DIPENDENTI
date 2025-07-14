@@ -1,0 +1,89 @@
+ Il volume nell'unit… C non ha etichetta.
+ Numero di serie del volume: 5C6B-8914
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA
+
+31/12/2024  14:58    <DIR>          .
+31/12/2024  14:58    <DIR>          ..
+31/12/2024  14:58                 0 AA__________________________________________________________________________AA.txt
+31/12/2024  13:22    <DIR>          MDB
+31/12/2024  12:19    <DIR>          OBJECT
+31/12/2024  13:07                53 Project_IMPEGNI_DI_SPESA.sublime-project
+31/12/2024  13:07            17.122 Project_IMPEGNI_DI_SPESA.sublime-workspace
+31/12/2024  14:58             2.986 ZIP_LOG_IMPEGNI_DI_SPESA_SALVATAGGI_ElencoFile.TXT
+15/11/2024  13:16             5.089 ZIP_RAR.BAT
+28/11/2020  14:16             2.361 Zip_rar_C.bat
+28/11/2020  16:25             2.179 Zip_rar_C_GitHub.bat
+31/12/2024  14:54            72.974 zip__________________________________________________________________________ZZ.txt
+28/11/2015  17:36                 0 ZZ__________________________________________________________________________ZZ.txt
+               9 File        102.764 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA\MDB
+
+31/12/2024  13:22    <DIR>          .
+31/12/2024  13:22    <DIR>          ..
+31/12/2024  13:22                 0 LLPP_IMPEGNI_ATTIVA_GESTIONE.ldb
+31/12/2024  11:56        15.728.640 LLPP_IMPEGNI_ATTIVA_GESTIONE.mdb
+19/12/2024  19:50         1.572.864 LLPP_IMPEGNI_DF02_ATTI_DI_IMPEGNO.mdb
+31/12/2024  11:56        18.612.224 LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
+19/12/2024  20:03         1.490.944 LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+31/12/2024  11:56        12.863.955 MDB_ARCHIVIO.zip
+30/12/2024  16:03        10.694.656 X_IMPEGNI_RICREA_OGGETTI.mdb
+30/12/2024  15:34            11.544 X_IMPEGNI_RICREA_OGGETTI_TabellaDiRiconversione.xlsx
+               8 File     60.974.827 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA\OBJECT
+
+31/12/2024  12:19    <DIR>          .
+31/12/2024  12:19    <DIR>          ..
+31/12/2024  11:58    <DIR>          BAT
+31/08/2022  16:06             3.075 IMPEGNI_ANALISI.MD
+25/12/2024  10:17    <DIR>          PDF
+31/12/2024  12:07    <DIR>          QUERY
+15/11/2024  13:36            14.276 README.MD
+25/12/2024  10:17    <DIR>          ZIP
+               2 File         17.351 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA\OBJECT\BAT
+
+31/12/2024  11:58    <DIR>          .
+31/12/2024  11:58    <DIR>          ..
+26/11/2020  09:40               998 APRI_CARTELLA_IMPEGNI_DI_SPESA.bat
+26/11/2020  09:45               392 APRI_IMPEGNI_DI_SPESA_ANALISI_TEX.bat
+26/11/2020  12:57               979 APRI_OGGETTI_DATABASE_IMPEGNI_DI_SPESA.bat
+29/10/2020  14:28             1.165 IMPEGNI_DI_SPESA_APRI_TUTTO.BAT.bat
+               4 File          3.534 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA\OBJECT\PDF
+
+25/12/2024  10:17    <DIR>          .
+25/12/2024  10:17    <DIR>          ..
+19/11/2024  14:41           259.269 LLPP_IMPEGNI_Frm_S01_12_GRUPPO_IMPEGNI_ANNO.pdf
+               1 File        259.269 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA\OBJECT\QUERY
+
+31/12/2024  12:07    <DIR>          .
+31/12/2024  12:07    <DIR>          ..
+31/12/2024  13:07             1.828 IMPEGNI_Qry01_IMPEGNI_QUERY_(CONTROLLARE).txt
+31/12/2024  13:08             8.215 IMPEGNI_Qry19_nuovo_Gruopp_in_lavorazione_(CONTROLLARE).txt
+31/12/2024  13:08             1.828 IMPEGNI_Query_01_IMPEGNI_QUERY_(CONTROLLARE).txt
+31/12/2024  13:08             4.612 LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT_(CONTROLLARE).txt
+               4 File         16.483 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA\OBJECT\ZIP
+
+25/12/2024  10:17    <DIR>          .
+25/12/2024  10:17    <DIR>          ..
+15/11/2024  13:02             1.116 AA__________________________________________________________________________AA.txt
+15/11/2024  13:02               760 ZIP_LOG_IMPEGNI_DI_SPESA_SALVATAGGI_ElencoFile.TXT
+15/11/2024  13:16             5.089 ZIP_RAR.BAT
+28/11/2020  14:16             2.361 Zip_rar_C.bat
+28/11/2020  16:25             2.179 Zip_rar_C_GitHub.bat
+28/11/2020  16:25            68.047 zip__________________________________________________________________________ZZ.txt
+28/11/2015  17:36                 0 ZZ__________________________________________________________________________ZZ.txt
+               7 File         79.552 byte
+
+     Totale file elencati:
+              35 File     61.453.780 byte
+              20 Directory  112.248.176.640 byte disponibili
