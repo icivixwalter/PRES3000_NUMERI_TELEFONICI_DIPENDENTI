@@ -63,6 +63,8 @@ TIMEOUT /T 3 /NOBREAK
 
 ECHO.
 ECHO       PULL PER LA SINCRONIZZAZIONE
+ECHO.
+ECHO.
 
 
 :: Esegui git add, commit e push
@@ -72,7 +74,7 @@ git commit -m "%today%_aggiornamento_NUMERI_TELEFONICI_DIPENDENTI"
 ECHO.
 ECHO       COMMIT DI AGGIORNAMENTO 
 ECHO.
-
+ECHO.
 
 :: Pausa per consentire il commit
 ECHO.
