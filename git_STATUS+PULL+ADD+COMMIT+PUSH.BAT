@@ -50,10 +50,10 @@ echo Data odierna: %today%
 :: Aggiungi file, commit e push
 :: =======================================================================
 ECHO.
-ECHO ........................................................................
+ECHO ...............................................................................................
 ECHO.
-ECHO       ESEGUI L'AGGIORNAMENTO CON PULL COMMIT E PUSH
-ECHO ........................................................................
+ECHO       ESEGUI L'AGGIORNAMENTO CON PULL COMMIT E PUSH PRES3000_NUMERI_TELEFONICI_DIPENDENTI
+ECHO ...............................................................................................
 ECHO.
 
 :: Eseguo prima il pull per la sincronizzazione
@@ -61,11 +61,18 @@ git pull
 ECHO pausa di 5 secondi per il controllo
 TIMEOUT /T 3 /NOBREAK
 
+ECHO.
+ECHO       PULL PER LA SINCRONIZZAZIONE
 
 
 :: Esegui git add, commit e push
 git add .
-git commit -m "%today%_aggiornamento_IMPEGNI"
+git commit -m "%today%_aggiornamento_NUMERI_TELEFONICI_DIPENDENTI"
+
+ECHO.
+ECHO       COMMIT DI AGGIORNAMENTO 
+ECHO.
+
 
 :: Pausa per consentire il commit
 ECHO.
@@ -73,6 +80,10 @@ ECHO pausa di 5 secondi per consentire il commit
 TIMEOUT /T 5 /NOBREAK
 
 git push
+
+ECHO.
+ECHO       PUSH FINALE 
+ECHO.
 
 :: Pausa finale
 ECHO.
