@@ -52,12 +52,17 @@ echo Data odierna: %today%
 ECHO.
 ECHO ........................................................................
 ECHO.
-ECHO       ESEGUI L'AGGIORNAMENTO CON COMMIT E PUSH
+ECHO       ESEGUI L'AGGIORNAMENTO CON PULL COMMIT E PUSH
 ECHO ........................................................................
 ECHO.
 
 :: Eseguo prima il pull per la sincronizzazione
 git pull 
+ECHO pausa di 5 secondi per il controllo
+TIMEOUT /T 3 /NOBREAK
+
+
+
 :: Esegui git add, commit e push
 git add .
 git commit -m "%today%_aggiornamento_IMPEGNI"

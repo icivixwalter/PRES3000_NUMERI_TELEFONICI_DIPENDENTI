@@ -24,192 +24,88 @@
 	"buffers":
 	[
 		{
-			"file": "/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+ADD+COMMIT+PUSH.BAT",
+			"file": "/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/CANCELLA_{MDB+OBJECT+PROJECT}.BAT",
 			"settings":
 			{
-				"buffer_size": 2500,
+				"buffer_size": 1391,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+PULL+ADD+COMMIT+PUSH.BAT",
+			"settings":
+			{
+				"buffer_size": 2571,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
 				[
-					5,
-					1,
-					"insert",
-					{
-						"characters": "\n::"
-					},
-					"AwAAAEkIAAAAAAAASggAAAAAAAAAAAAASggAAAAAAABLCAAAAAAAAAAAAABLCAAAAAAAAEwIAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASQgAAAAAAABJCAAAAAAAAAAAAAAAgFxA"
-				],
-				[
 					6,
 					1,
 					"insert",
 					{
-						"characters": " Ese"
+						"characters": "\n\n"
 					},
-					"BAAAAEwIAAAAAAAATQgAAAAAAAAAAAAATQgAAAAAAABOCAAAAAAAAAAAAABOCAAAAAAAAE8IAAAAAAAAAAAAAE8IAAAAAAAAUAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATAgAAAAAAABMCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					7,
-					1,
-					"insert",
-					{
-						"characters": "guo"
-					},
-					"AwAAAFAIAAAAAAAAUQgAAAAAAAAAAAAAUQgAAAAAAABSCAAAAAAAAAAAAABSCAAAAAAAAFMIAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAUAgAAAAAAABQCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					8,
-					1,
-					"insert",
-					{
-						"characters": " prima"
-					},
-					"BgAAAFMIAAAAAAAAVAgAAAAAAAAAAAAAVAgAAAAAAABVCAAAAAAAAAAAAABVCAAAAAAAAFYIAAAAAAAAAAAAAFYIAAAAAAAAVwgAAAAAAAAAAAAAVwgAAAAAAABYCAAAAAAAAAAAAABYCAAAAAAAAFkIAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAUwgAAAAAAABTCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					9,
-					1,
-					"insert",
-					{
-						"characters": " il"
-					},
-					"AwAAAFkIAAAAAAAAWggAAAAAAAAAAAAAWggAAAAAAABbCAAAAAAAAAAAAABbCAAAAAAAAFwIAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAWQgAAAAAAABZCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"insert",
-					{
-						"characters": " pull"
-					},
-					"BQAAAFwIAAAAAAAAXQgAAAAAAAAAAAAAXQgAAAAAAABeCAAAAAAAAAAAAABeCAAAAAAAAF8IAAAAAAAAAAAAAF8IAAAAAAAAYAgAAAAAAAAAAAAAYAgAAAAAAABhCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXAgAAAAAAABcCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					11,
-					1,
-					"insert",
-					{
-						"characters": " pr"
-					},
-					"AwAAAGEIAAAAAAAAYggAAAAAAAAAAAAAYggAAAAAAABjCAAAAAAAAAAAAABjCAAAAAAAAGQIAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAYQgAAAAAAABhCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"insert",
-					{
-						"characters": " la"
-					},
-					"AwAAAGQIAAAAAAAAZQgAAAAAAAAAAAAAZQgAAAAAAABmCAAAAAAAAAAAAABmCAAAAAAAAGcIAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZAgAAAAAAABkCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					13,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAGcIAAAAAAAAaAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZwgAAAAAAABnCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					5,
-					"left_delete",
-					null,
-					"BQAAAGcIAAAAAAAAZwgAAAAAAAABAAAAIGYIAAAAAAAAZggAAAAAAAABAAAAYWUIAAAAAAAAZQgAAAAAAAABAAAAbGQIAAAAAAAAZAgAAAAAAAABAAAAIGMIAAAAAAAAYwgAAAAAAAABAAAAcg",
-					"AQAAAAAAAAABAAAAaAgAAAAAAABoCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"insert",
-					{
-						"characters": "er"
-					},
-					"AgAAAGMIAAAAAAAAZAgAAAAAAAAAAAAAZAgAAAAAAABlCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAYwgAAAAAAABjCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert",
-					{
-						"characters": " la"
-					},
-					"AwAAAGUIAAAAAAAAZggAAAAAAAAAAAAAZggAAAAAAABnCAAAAAAAAAAAAABnCAAAAAAAAGgIAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZQgAAAAAAABlCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					17,
-					1,
-					"insert",
-					{
-						"characters": " sincroni"
-					},
-					"CQAAAGgIAAAAAAAAaQgAAAAAAAAAAAAAaQgAAAAAAABqCAAAAAAAAAAAAABqCAAAAAAAAGsIAAAAAAAAAAAAAGsIAAAAAAAAbAgAAAAAAAAAAAAAbAgAAAAAAABtCAAAAAAAAAAAAABtCAAAAAAAAG4IAAAAAAAAAAAAAG4IAAAAAAAAbwgAAAAAAAAAAAAAbwgAAAAAAABwCAAAAAAAAAAAAABwCAAAAAAAAHEIAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAaAgAAAAAAABoCAAAAAAAAAAAAAAAAPC/"
+					"AgAAAIMIAAAAAAAAhAgAAAAAAAAAAAAAhAgAAAAAAACFCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgwgAAAAAAACDCAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					18,
 					1,
 					"insert",
 					{
-						"characters": "zzazione"
+						"characters": "PULL"
 					},
-					"CAAAAHEIAAAAAAAAcggAAAAAAAAAAAAAcggAAAAAAABzCAAAAAAAAAAAAABzCAAAAAAAAHQIAAAAAAAAAAAAAHQIAAAAAAAAdQgAAAAAAAAAAAAAdQgAAAAAAAB2CAAAAAAAAAAAAAB2CAAAAAAAAHcIAAAAAAAAAAAAAHcIAAAAAAAAeAgAAAAAAAAAAAAAeAgAAAAAAAB5CAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcQgAAAAAAABxCAAAAAAAAAAAAAAAAPC/"
+					"BAAAAOcHAAAAAAAA6AcAAAAAAAAAAAAA6AcAAAAAAADpBwAAAAAAAAAAAADpBwAAAAAAAOoHAAAAAAAAAAAAAOoHAAAAAAAA6wcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wcAAAAAAADnBwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					19,
 					1,
 					"insert",
 					{
-						"characters": "\ng"
-					},
-					"AgAAAHkIAAAAAAAAeggAAAAAAAAAAAAAeggAAAAAAAB7CAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAeQgAAAAAAAB5CAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"insert",
-					{
-						"characters": "it"
-					},
-					"AgAAAHsIAAAAAAAAfAgAAAAAAAAAAAAAfAgAAAAAAAB9CAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAewgAAAAAAAB7CAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"insert",
-					{
-						"characters": " pull"
-					},
-					"BQAAAH0IAAAAAAAAfggAAAAAAAAAAAAAfggAAAAAAAB/CAAAAAAAAAAAAAB/CAAAAAAAAIAIAAAAAAAAAAAAAIAIAAAAAAAAgQgAAAAAAAAAAAAAgQgAAAAAAACCCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfQgAAAAAAAB9CAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					22,
-					1,
-					"insert",
-					{
 						"characters": " "
 					},
-					"AQAAAIIIAAAAAAAAgwgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAgggAAAAAAACCCAAAAAAAAAAAAAAAAPC/"
+					"AQAAAOsHAAAAAAAA7AcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6wcAAAAAAADrBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAIgIAAAAAAAAiQgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiAgAAAAAAACICAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"paste",
+					null,
+					"AQAAAIkIAAAAAAAAyQgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiQgAAAAAAACJCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAL0IAAAAAAAAvggAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvQgAAAAAAAC9CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					2,
+					"right_delete",
+					null,
+					"AgAAAL4IAAAAAAAAvggAAAAAAAABAAAAMb4IAAAAAAAAvggAAAAAAAABAAAAMA",
+					"AQAAAAAAAAABAAAAvggAAAAAAAC+CAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -532,17 +428,18 @@
 	],
 	"file_history":
 	[
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_OPEN_OVERLEAF.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_OpenGitHub.bat",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+PULL+ADD+COMMIT+PUSH.BAT",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+ADD+COMMIT+PUSH.BAT",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}_CASA.BAT",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}_UFFICIO.BAT",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/Zip_N70_ElencoFile.txt",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/.gitignore",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/Project_IMPEGNI_DI_SPESA.sublime-project",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+ADD+COMMIT+PUSH.BAT",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_PULL_LOG.txt",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_PULL.BAT",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_OPEN_OVERLEAF.BAT",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/CANCELLA_{MDB+OBJECT+PROJECT}.BAT",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_OpenGitHub.bat",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS.BAT",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI.html",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_HTML_NUMERI_TELEFONICI_DIPENDENTI.md",
@@ -658,12 +555,11 @@
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MENU_GESTIONE/MENU_GESTIONE_SUBLIME_TEXT_ANALISI/MENU_GESTIONE_SublimeText_Project.sublime-workspace",
 		"/C/TMP/TMP_oggi/DA_PROTOCOLLARE/MODELLI_AVVOCATURA_RISPOSTE/GIZA/MEMO_7_2021.txt",
 		"/C/CASA/CDM/MEMO_7_2021.txt",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/FORM/CIVILIA_FrmTb01_12_GRUPPO_ATTO.MD",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/FORM/CIVILIA_FrmTb01_11_GRUPPO_ANNO.MD"
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/FORM/CIVILIA_FrmTb01_12_GRUPPO_ATTO.MD"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.8
 	},
 	"find_in_files":
 	{
@@ -678,6 +574,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"PULL",
 			"_SALVATAGGI_NUMERI_TELEFONICI_DIPENENTI_UFFICIO",
 			"_SALVATAGGI_IMPEGNI_UFFICIO",
 			"_SALVATAGGI_IMPEGNI_CASA",
@@ -727,20 +624,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+ADD+COMMIT+PUSH.BAT",
-					"selected": true,
+					"file": "/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/CANCELLA_{MDB+OBJECT+PROJECT}.BAT",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2500,
+						"buffer_size": 1391,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2179,
-								2179
+								0,
+								0
 							]
 						],
 						"settings":
@@ -823,7 +719,112 @@
 							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 684.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/git_STATUS+PULL+ADD+COMMIT+PUSH.BAT",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2238,
+								2238
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"rainbow_checked": true,
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 854.4,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
