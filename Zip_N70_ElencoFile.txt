@@ -1,30 +1,6 @@
-//ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva 
-//questo è il secondo esempio con path e file liberi senza .\ e sembra che funziona
-//............................................................................//
 MDB\
-OBJECT\
-
-
-AA__________________________________________________________________________AA.txt
-.gitignore
-CANCELLA_{MDB+OBJECT+PROJECT}.BAT
-git_OPEN_OVERLEAF.BAT
-git_OpenGitHub.bat
-git_PULL.BAT
-git_STATUS.BAT
-git_STATUS+ADD+COMMIT+PUSH.BAT
-*.sublime-project
-*.sublime-workspace
-ZIP_7ZIP_________________________________________________________________ZZ.txt
-ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}_CASA.BAT
-ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}_UFFICIO.BAT
-Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
-Zip_N70_CRIPTA.bat
-Zip_N70_DECODIFICA.bat
-Zip_N70_ElencoFile.txt
-Zip_N70_ElencoFileESCLUSI.txt
-Zip_N70_RAR_____________________________________________________________RAR.txt
-ZIP_RAR.BAT
-Zip_rar_C.bat
-Zip_rar_C_GitHub.bat
-ZZ__________________________________________________________________________ZZ.txt
+c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\OBJECT\HTML\
+c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\OBJECT\MD\
+//SOLO NELLA CARTELLA RUST ED ALCUNI FILE E SOTTOCARTELLE
+//............................................................................//
+c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\OBJECT\RUST\tauri_svelte\src-tauri\

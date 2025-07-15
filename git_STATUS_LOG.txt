@@ -4,7 +4,14 @@ Your branch is up to date with 'origin/calcolo'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   git_STATUS+PULL+ADD+COMMIT+PUSH.BAT
+	modified:   Project_NUMERI_TELEFONICI_DIPENDENTI.sublime-project
+	modified:   Project_NUMERI_TELEFONICI_DIPENDENTI.sublime-workspace
+	modified:   Zip_N70_ElencoFile.txt
 	modified:   git_STATUS_LOG.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	OBJECT/RUST/
+	Zip_N70_ElencoFile_old.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
