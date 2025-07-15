@@ -1,5 +1,6 @@
 @REM ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}_UFFICIO.BAT
 @REM bat incrementale per il savataggio in UFFICIO
+
 		
 
 @CLS
@@ -25,7 +26,7 @@
 		@ECHO. 
 		@ECHO. cambia questo parametro ---------: 			c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\ 
 		@ECHO. 
-		@ECHO. cambia questo parametro ---------: 			_SALVATAGGI_NUMERI_TELEFONICI_DIPENDENTI_UFFICIO
+		@ECHO. cambia questo parametro ---------: 			ZIP_SALVATAGGI_PRES3000_NUMERI_TELEFONICI_DIPENDENTI
 		@ECHO. 
 		@ECHO. 
 		@ECHO. 
@@ -37,7 +38,7 @@
 		@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI 	=	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\%CARTELLA_SALVATAGGI_S%
 		@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE 	=  	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\AA_SALVATAGGI\
 		@ECHO. LA PATH DI PARTENZA							= 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\
-		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 				= 	ZIP_SALVATAGGI_SALVATAGGI_NUMERI_TELEFONICI_DIPENDENTI_UFFICIO
+		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 				= 	ZIP_SALVATAGGI_PRES3000_NUMERI_TELEFONICI_DIPENDENTI
 		@ECHO. LISTA FILE UTILIZZATA 						= 	Zip_N70_ElencoFile.txt
 		@ECHO. --------------------------------------------------------------------------------------------------------
 		@ECHO.
@@ -151,7 +152,7 @@
 							@REM @SET PATH_DEST_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\AA_SALVATAGGI\
 							@SET PATH_PART_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\
 							
-							@SET FILE_S=ZIP_SALVATAGGI_SALVATAGGI_NUMERI_TELEFONICI_DIPENDENTI_UFFICIO
+							@SET FILE_S=ZIP_SALVATAGGI_PRES3000_NUMERI_TELEFONICI_DIPENDENTI
 							@SET LISTA_FILE_S=Zip_N70_ElencoFile.txt
 
 							
@@ -428,6 +429,7 @@
 				@ECHO. ATTIVO IL SALVATAGGIO CON 7ZIP 
 				@ECHO.  
 				"C:\Program Files\7-Zip\7z.exe" u -tzip -r %PATH_DEST_S%\%TODAY%_%FILE_S% @Zip_N70_ElencoFile.txt
+				 
 				@ECHO. 
 				@ECHO. 
 				
@@ -450,11 +452,6 @@
 					
 					@ECHO 07.05 recupero i file processati nel .zip e li salvo in .txt
 					@ECHO VADO NELLA PATH DI DESTINAZIONE E SALVO L'ELENCO DEI FILE 
-					@ECHO ................... controllo path di destinazione:
-					@ECHO ...... %PATH_DEST_S%
-					@ECHO ...... file da ricercare %TODAY%_%FILE_S%
-					@ECHO .................................................................. 
-				
 					CD %PATH_DEST_S%
 					"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S%.zip -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT
 					
@@ -493,6 +490,64 @@
 							
 
 	
+
+
+
+					:------------------------------ SALVO COPIA SU y:\LAVORI_PUBBLICI_FINO_AL_30_09_2019\Valter\OPERE_PUBBLICHE\96_ARCHIVI_LLPP_MDB\
+
+
+
+					@echo.
+					@echo."=================================================================="
+					@echo."			MSG - SALVATAGGIO SU y: "
+					@echo.
+					@echo."COPIA FILE SU : - y:\LAVORI_PUBBLICI_FINO_AL_30_09_2019\Valter\OPERE_PUBBLICHE\96_ARCHIVI_LLPP_MDB\ - "			
+					@echo."=================================================================="
+					@echo.
+					@echo. controllo directory
+					@echo.
+					@echo.
+						dir
+
+
+
+                        @echo off
+                        setlocal
+
+                        REM === CONFIGURAZIONE ===
+
+                        REM @SALVATAGGIO SU Y: Cartella sorgente dei file .GE614 + PATH SORGENTE  + PATH DI DESTINAZIONE
+                        set "SOURCE_DIR=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\AA_SALVATAGGI"
+
+                        REM Cartella di destinazione
+                        set "DEST_DIR=y:\LAVORI_PUBBLICI_FINO_AL_30_09_2019\Valter\OPERE_PUBBLICHE\96_ARCHIVI_LLPP_MDB"
+
+                        REM ========================
+
+                        REM Trova il file .GE614 più recente nella cartella sorgente
+                        for /f "delims=" %%F in ('dir "%SOURCE_DIR%\*.ge614" /b /a:-d /o:-d') do (
+                            set "LASTFILE=%%F"
+                            goto :found
+                        )
+
+                        :found
+                        if defined LASTFILE (
+                            echo Copio: "%LASTFILE%" in "%DEST_DIR%"
+                            xcopy /y "%SOURCE_DIR%\%LASTFILE%" "%DEST_DIR%"
+                            START "APRI CARTELLA" "%DEST_DIR%"
+                        ) else (
+                            echo Nessun file .GE614 trovato in %SOURCE_DIR%
+                        )
+
+                        endlocal
+
+
+
+					@ECHO "--------------------------> USCITA DALLA PROCEDURA "
+
+
+
+
 	@echo.09------------------------------ SOSPENSIONE ED USCITA DALLA PROCEDURA @08
 
 				
@@ -551,7 +606,7 @@
 					@REM @file 	=	lista file da processare
 					@REM 		 	attenzione nella listafile.txt indicare la path e al posto di *.* occore solo * es. c:\dos\* pero per riportare la path completa
 					@REM 		 	della sottodirectory occorre il parametro -r = sottodirectory e nel file .txt indicare la path completa senza * es.
-					@REM 		 	c:\CASA\LINGUAGGI\ACCESS\
+					@REM 		 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\
 					@REM path   =	la path di salvataggio, per posizionare l'archivio in un'altra cartella occore scrivere il nome 
 					@REM 		 	Dell'archivio preceduto dalla path estesa es.
 					@REM 			C:\CASA\SALVATAGGI\archive.zip
@@ -564,7 +619,7 @@
 
 					@REM  ATTENZIONE in @Zip_N70_ElencoFile.txt  devi inserire solo le directory senza *.* e no le cartelle interne perchè altrimenti
 					@REM 				salva solo le sottocartelle e non la cartella madre. Quindi nel file.txt indicare le cartelle ORIGINE in questo
-					@REM  				modo: c:\CASA\LINGUAGGI\ACCESS\
+					@REM  				modo: c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\
 					@REM  				modo: c:\CASA\LINGUAGGI\CPP\  ... ecc.
 
 

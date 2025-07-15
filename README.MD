@@ -4,6 +4,36 @@ README.MD
       progetto di numeri telefonici con pagina html con server locale.
 
 
+COMANDI SUBLIMETEXT
+   Terminale
+      🔹 2. Apri il terminale nel pannello inferiore
+            Premi Ctrl + Shift + P (apre la Command Palette).
+
+            Digita:
+
+            mathematica
+            Copia
+            Modifica
+            Terminus: Open Terminal in Panel
+        3 ⌨️ FACOLTATIVO: TASTO RAPIDO PERSONALIZZATO
+               Puoi impostare una scorciatoia per aprirlo direttamente:
+
+               ▶️ Come fare:
+               Vai su Preferences > Key Bindings.
+
+               Nella finestra di destra (User), incolla questo:
+                        [
+                            {
+                                "keys": ["ctrl+alt+t"],
+                                "command": "terminus_open",
+                                "args": {
+                                    "panel_name": "Terminus",
+                                    "cwd": "${file_path:${folder}}"
+                                }
+                            }
+                        ]
+
+
 PROGETTO MINI RETE LOCALE NUMERI TELEFONICI
    @COSTRUIRE@HTML@NUMERI@TELEFONICI
       per costruire il @file@html dei @numeri@telefonici utilizzare questo comando:
@@ -92,7 +122,6 @@ PROGETTO MINI RETE LOCALE NUMERI TELEFONICI
             Nessuna configurazione complicata di server o firewall
 
             Estremamente controllato, trasparente e reversibile
-
 
 
 PROGETTO MINI RETE LOCALE FERIE ESTIVE
