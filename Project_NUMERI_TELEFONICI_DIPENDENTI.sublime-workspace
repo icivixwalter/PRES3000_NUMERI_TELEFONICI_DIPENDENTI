@@ -23,6 +23,17 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/c/GESTIONI/GESTIONE_LLPP/TMP/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_E.JS",
+			"settings":
+			{
+				"buffer_size": 400,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		}
 	],
 	"build_system": "Packages/Pandoc/pandoc.sublime-build",
 	"build_system_choices":
@@ -336,14 +347,9 @@
 	},
 	"expanded_folders":
 	[
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/RUST",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/RUST/tauri_svelte",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/RUST/tauri_svelte/src",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/RUST/tauri_svelte/src/components",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/RUST/tauri_svelte/src-tauri",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/RUST/tauri_svelte/src-tauri/src"
+		"/c/GESTIONI/GESTIONE_LLPP/TMP/PRES3000_NUMERI_TELEFONICI_DIPENDENTI",
+		"/c/GESTIONI/GESTIONE_LLPP/TMP/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT",
+		"/c/GESTIONI/GESTIONE_LLPP/TMP/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML"
 	],
 	"file_history":
 	[
@@ -553,6 +559,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/c/GESTIONI/GESTIONE_LLPP/TMP/PRES3000_NUMERI_TELEFONICI_DIPENDENTI/OBJECT/HTML/ELENCO_JavaScript_NUMERI_TELEFONICI_DIPENDENTI_LETT_E.JS",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								400,
+								400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],

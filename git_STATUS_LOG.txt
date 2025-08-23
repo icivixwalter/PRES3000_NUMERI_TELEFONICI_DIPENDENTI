@@ -6,12 +6,12 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   Project_NUMERI_TELEFONICI_DIPENDENTI.sublime-project
 	modified:   Project_NUMERI_TELEFONICI_DIPENDENTI.sublime-workspace
-	modified:   Zip_N70_ElencoFile.txt
 	modified:   git_STATUS_LOG.txt
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	OBJECT/RUST/
-	Zip_N70_ElencoFile_old.txt
+	OBJECT/HTML_POSTA.ZIP
+	OBJECT/HTML_POSTA/
+	OBJECT/HTML_POSTA_NODE/
 
 no changes added to commit (use "git add" and/or "git commit -a")

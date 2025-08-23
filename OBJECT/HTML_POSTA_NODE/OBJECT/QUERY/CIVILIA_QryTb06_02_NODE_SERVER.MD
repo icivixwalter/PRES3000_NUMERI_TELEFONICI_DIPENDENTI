@@ -1,0 +1,15 @@
+//CIVILIA_QryTb06_02_NODE_SERVER.MD
+// ESTRAGGO la posta per il server node
+//---------------------------------------------------------------------//
+// c:\Gestioni\GESTIONE_LLPP\25_GESTIONE_LLPP\CIVILIA_GESTIONE\CIVILIA_MDB\CIVILIA_N03_Tb06_PROTOCOLLO.mdb
+// sulla tabella CIVILIA_Tb06_PROTOCOLLO
+
+   SELECT 
+         CIVILIA_Tb06_PROTOCOLLO.NUMERO_PROTOC_lng, 
+         CIVILIA_Tb06_PROTOCOLLO.DATA_PROTOC_s, 
+         CIVILIA_Tb06_PROTOCOLLO.OGGETTO_m, 
+         CIVILIA_Tb06_PROTOCOLLO.CORRISPON_m, 
+         CIVILIA_Tb06_PROTOCOLLO.NOTE_s, 
+         CIVILIA_Tb06_PROTOCOLLO.IdOrd_lng
+      FROM 
+         CIVILIA_Tb06_PROTOCOLLO;

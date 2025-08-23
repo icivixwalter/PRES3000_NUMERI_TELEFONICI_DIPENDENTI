@@ -1,0 +1,14 @@
+ Il volume nell'unit… C Š Windows-SSD
+ Numero di serie del volume: 8EE0-A1E8
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\TMP\PRES3000_NUMERI_TELEFONICI_DIPENDENTI\OBJECT\HTML_POSTA_NODE\HTML
+
+23/08/2025  20:17    <DIR>          .
+23/08/2025  19:18    <DIR>          ..
+23/08/2025  20:17                 0 a.txt
+23/08/2025  18:59             2.346 POSTA_HTML_NODE.html
+23/08/2025  19:55             2.010 script.js
+23/08/2025  20:03               442 start.js
+23/08/2025  18:59               700 style.css
+               5 File          5.498 byte
+               2 Directory  715.860.582.400 byte disponibili

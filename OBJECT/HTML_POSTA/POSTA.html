@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Elenco Posta Dipendenti</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 30px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .sezione {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .sezione summary {
+      background-color: #007acc;
+      color: white;
+      padding: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px 5px 0 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+<h1>📧 Elenco Posta</h1>
+
+<input
+  type="text"
+  id="searchInput"
+  placeholder="🔍 Cerca per corrispondente, oggetto o protocollazione..."
+  onkeyup="filterAll()"
+/>
+
+<div id="contenitoreElenco"></div>
+
+<!-- Includiamo il file JS con tutti i dati -->
+<script src="POSTA/PROTOCOLLO.js"></script>
+<script>
+  const tuttiContatti = typeof protocollo !== 'undefined' ? protocollo : [];
+
+  function creaTabella() {
+    const contenitore = document.getElementById("contenitoreElenco");
+    contenitore.innerHTML = "";
+
+    const lettere = [...new Set(tuttiContatti.map(c => c.CORRISPON.charAt(0).toUpperCase()))].sort();
+
+    lettere.forEach(lettera => {
+      const sezioneContatti = tuttiContatti.filter(c => c.CORRISPON.charAt(0).toUpperCase() === lettera);
+
+      const sezione = document.createElement("details");
+      sezione.className = "sezione";
+      sezione.open = false;
+
+      const summary = document.createElement("summary");
+      summary.textContent = `🔤 Lettera ${lettera}`;
+      sezione.appendChild(summary);
+
+      const tabella = document.createElement("table");
+      tabella.innerHTML = `
+        <thead>
+          <tr>
+            <th>Anno</th>
+            <th>Modalità</th>
+            <th>Corrispondente</th>
+            <th>Oggetto</th>
+            <th>Data Prot.</th>
+            <th>Numero Prot.</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${sezioneContatti.map(c => `
+            <tr>
+              <td>${c.ANNO_Ic}</td>
+              <td>${c.MODALITA_s}</td>
+              <td>${c.CORRISPON}</td>
+              <td>${c.OGGETTO_m}</td>
+              <td>${c.DATA_PROT}</td>
+              <td>${c.NUMERO_PROTOC}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      `;
+      sezione.appendChild(tabella);
+      contenitore.appendChild(sezione);
+    });
+  }
+
+  function filterAll() {
+    const filtro = document.getElementById("searchInput").value.toLowerCase();
+    const filtrati = tuttiContatti.filter(c =>
+      c.CORRISPON.toLowerCase().includes(filtro) ||
+      c.OGGETTO_m.toLowerCase().includes(filtro) ||
+      (c.DATA_PROT && c.DATA_PROT.toLowerCase().includes(filtro)) ||
+      (c.NUMERO_PROTOC && c.NUMERO_PROTOC.toString().includes(filtro))
+    );
+    creaTabellaFiltrata(filtrati);
+  }
+
+  function creaTabellaFiltrata(dati) {
+    const contenitore = document.getElementById("contenitoreElenco");
+    contenitore.innerHTML = "";
+
+    const lettere = [...new Set(dati.map(c => c.CORRISPON.charAt(0).toUpperCase()))].sort();
+
+    lettere.forEach(lettera => {
+      const sezioneContatti = dati.filter(c => c.CORRISPON.charAt(0).toUpperCase() === lettera);
+
+      const sezione = document.createElement("details");
+      sezione.className = "sezione";
+      sezione.open = true;
+
+      const summary = document.createElement("summary");
+      summary.textContent = `🔤 Lettera ${lettera}`;
+      sezione.appendChild(summary);
+
+      const tabella = document.createElement("table");
+      tabella.innerHTML = `
+        <thead>
+          <tr>
+            <th>Anno</th>
+            <th>Modalità</th>
+            <th>Corrispondente</th>
+            <th>Oggetto</th>
+            <th>Data Prot.</th>
+            <th>Numero Prot.</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${sezioneContatti.map(c => `
+            <tr>
+              <td>${c.ANNO_Ic}</td>
+              <td>${c.MODALITA_s}</td>
+              <td>${c.CORRISPON}</td>
+              <td>${c.OGGETTO_m}</td>
+              <td>${c.DATA_PROT}</td>
+              <td>${c.NUMERO_PROTOC}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      `;
+      sezione.appendChild(tabella);
+      contenitore.appendChild(sezione);
+    });
+  }
+
+  creaTabella();
+</script>
+</body>
+</html>
