@@ -1,5 +1,5 @@
 // ============================================================
-// file: script.js - logica per POSTA_HTML_NODE.html
+// file: @script.js - logica per POSTA_HTML_NODE.html
 // ============================================================
 
 // @fetch - archivio globale dati per filtraggio

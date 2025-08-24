@@ -6,31 +6,40 @@ COME AVVIARE IL SERVER:
     node server.js
 
 ==============================================================================
+
 Tabella attività / debug server.js (aggiornata)
 ==============================================================================
 
-Azione / Controllo                        | Descrizione                                                                                     | Segnalibro / Posizione nel Codice
----------------------------------------------------------------------------------------------------------------
-Avvio server                              | Avvia Node.js su http://localhost:3000                                                        | app.listen(PORT)
-Servizio file statici                     | Permette al server di servire HTML, CSS e JS dalla cartella HTML                               | app.use(express.static(...))
-Rotta principale                          | Serve la pagina HTML principale                                                                 | app.get('/', ...)
-Recupero dati dal DB                      | Esegue query SELECT * FROM CIVILIA_Tb06_PROTOCOLLO                                           | app.get('/dati', async ...)
-Numero di record restituiti               | Log numero record ottenuti dalla query                                                          | console.log(result.length)
-Visualizzazione primi 5 record            | Log dei primi 5 record per controllo contenuto                                                  | console.log(result.slice(0,5))
-Campi disponibili                         | Mostra i nomi dei campi restituiti dal DB                                                      | console.log(Object.keys(result[0]))
-Chiusura sicura della connessione         | Assicura che la connessione ODBC venga chiusa anche in caso di errore                           | finally { if (connection) await connection.close(); }
-Gestione errori connessione DB            | Log degli errori e invio risposta 500 in caso di fallimento                                     | catch(err) { ... }
-Debug frontend (opzionale)                | Controllo lato client dei dati ricevuti e filtrati                                              | script.js: console.log("Dati caricati:", datiGlobali)
-Suggerimento operativo                     | Messaggio in console per aprire il browser automaticamente                                      | console.log(`[Info] Apri http://localhost:${PORT}`)
-
-Modifiche principali aggiunte:
-Funzione testDbAtStartup() che esegue subito la query SELECT * FROM CIVILIA_Tb06_PROTOCOLLO all’avvio.
-Stampa su terminale il numero di record, i primi 5 record e i campi disponibili.
-Gestione compatta di dataset grandi.
-Messaggio finale informativo all'avvio.
-Chiamata await testDbAtStartup() dentro app.listen() per eseguire il test subito dopo l’avvio del server.
+# | Attività                                | Segnalibro HTML/JS                  | Descrizione / Note
+--|----------------------------------------|------------------------------------|---------------------------------------------------------
+01 | Avvio server                            | app.listen(PORT)                    | Avvia Node.js su http://localhost:3000
+02 | Servizio file statici                   | app.use(express.static(...))        | Permette al server di servire HTML, CSS e JS dalla cartella HTML
+03 | Rotta principale                        | app.get('/', ...)                   | Serve la pagina HTML principale
+04 | Rotta dati / Recupero DB                | app.get('/dati', async ...)         | Esegue query SELECT * FROM CIVILIA_Tb06_PROTOCOLLO
+05 | Numero di record restituiti             | console.log(result.length)          | Log numero record ottenuti dalla query
+06 | Visualizzazione primi 5 record          | console.log(result.slice(0,5))     | Log dei primi 5 record per controllo contenuto
+07 | Campi disponibili                       | console.log(Object.keys(result[0]))| Mostra i nomi dei campi restituiti dal DB
+08 | Chiusura sicura della connessione       | finally { if (connection) await connection.close(); } | Chiude la connessione ODBC
+09 | Gestione errori connessione DB          | catch(err) {...}                    | Log errori e invio risposta 500
+10 | Debug frontend (opzionale)              | script.js: console.log(...)         | Controllo lato client dei dati ricevuti e filtrati
+11 | Messaggio operativo                     | console.log(`[Info] Apri ...`)     | Messaggio per aprire il browser automaticamente
+12 | Timeout chiusura server                 | resetServerTimeout + setTimeout     | Termina server dopo 10 minuti di inattività
 
 ==============================================================================
+
+Modifiche principali aggiunte:
+- Funzione testDbAtStartup() che esegue subito la query all’avvio.
+- Stampa numero record, primi 5 record e campi disponibili.
+- Gestione compatta di dataset grandi.
+- Messaggio finale informativo all'avvio.
+- Timeout di chiusura automatica del server dopo 10 minuti di inattività, reset ad ogni richiesta.
+          il server node non ricevendo notifiche si chiude comunque dopo 10 minuti e non si creano
+          duplicati o serve orfani. Nel futuro si puo implementare anche la chiusura automatica del
+          server alla chiusura della pagina Html ma occorre ma richiede un po’ di
+          comunicazione lato client (websocket o ping)
+
+==============================================================================
+
 */
 
 import express from 'express';
@@ -44,61 +53,92 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = 3000;
 
-// Percorso DB Access
+// Percorso DB Access @percorso@assoluto@database@access
 const connectionString = `Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\Gestioni\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\CIVILIA_GESTIONE\\CIVILIA_MDB\\CIVILIA_N03_Tb06_PROTOCOLLO.mdb;`;
 
-// Servire file statici dalla cartella HTML
+// -----------------------------------------------------------------------------
+// @01 Timeout server: chiusura automatica dopo 10 minuti di inattività
+// -----------------------------------------------------------------------------
+let serverTimeout;
+
+/* --- Segnalibro @01: resetServerTimeout ---
+     Funzione che resetta il timer per chiudere il server in caso di inattività.
+     Ogni richiesta resetta il timer. Se nessuna richiesta arriva entro 10 minuti,
+     il server si chiude automaticamente. --- */
+function resetServerTimeout(server) {
+  if (serverTimeout) clearTimeout(serverTimeout);
+  serverTimeout = setTimeout(() => {
+    console.log('[Server] Nessuna attività: chiusura automatica server dopo 10 minuti.');
+    server.close(() => {
+      process.exit(0);
+    });
+  }, 10 * 60 * 1000); // 10 minuti
+}
+
+// -----------------------------------------------------------------------------
+// @02 Servizio file statici
+// -----------------------------------------------------------------------------
 app.use(express.static(path.join(__dirname, 'HTML')));
 
-// Rotta principale - serve il file HTML
+// -----------------------------------------------------------------------------
+// @03 Rotta principale
+// -----------------------------------------------------------------------------
 app.get('/', (req, res) => {
+  resetServerTimeout(server); // reset timeout ad ogni richiesta
   res.sendFile(path.join(__dirname, 'HTML', 'POSTA_HTML_NODE.html'));
 });
 
-// Funzione per testare subito il DB e stampare risultati all'avvio
+// -----------------------------------------------------------------------------
+// Funzione test DB all'avvio
+// -----------------------------------------------------------------------------
 async function testDbAtStartup() {
   let connection;
   try {
     connection = await odbc.connect(connectionString);
 
-    // Esegui query
+    // @05 Numero di record restituiti
     const result = await connection.query('SELECT * FROM CIVILIA_Tb06_PROTOCOLLO');
-
-    // Debug: numero di record e primi 5
     console.log(`[Startup Test] Numero di record nel DB: ${result.length}`);
+
+    // @06 Visualizzazione primi 5 record
     console.log("[Startup Test] Primi 5 record:", result.slice(0, 5));
 
-    // Debug: mostra i campi disponibili
+    // @07 Campi disponibili
     if (result.length > 0) {
       console.log("[Startup Test] Campi disponibili:", Object.keys(result[0]));
     }
 
-    // Log compatto se dataset grande
     if (result.length > 1000) {
       console.log(`[Startup Test] Visualizzazione limitata ai primi 50 record per non saturare il terminale`);
     }
 
   } catch (err) {
+    // @09 Gestione errori connessione DB
     console.error('[Startup Test] Errore connessione DB:', err);
   } finally {
+    // @08 Chiusura sicura della connessione
     if (connection) await connection.close();
   }
 }
 
-// Rotta dati con logging dettagliato
+// -----------------------------------------------------------------------------
+// @04 Rotta dati
+// -----------------------------------------------------------------------------
 app.get('/dati', async (req, res) => {
+  resetServerTimeout(server); // reset timeout ad ogni richiesta
   let connection;
   try {
     connection = await odbc.connect(connectionString);
 
-    // Esegui query
     const result = await connection.query('SELECT * FROM CIVILIA_Tb06_PROTOCOLLO');
 
-    // Debug: numero di record e primi 5
+    // @05 Numero di record restituiti
     console.log(`Numero di record restituiti: ${result.length}`);
+
+    // @06 Visualizzazione primi 5 record
     console.log("Primi 5 record:", result.slice(0, 5));
 
-    // Debug: mostra i campi disponibili
+    // @07 Campi disponibili
     if (result.length > 0) {
       console.log("Campi disponibili:", Object.keys(result[0]));
     }
@@ -107,20 +147,27 @@ app.get('/dati', async (req, res) => {
     res.json(result);
 
   } catch (err) {
+    // @09 Gestione errori connessione DB
     console.error('Errore connessione DB:', err);
     res.status(500).send('Errore connessione DB');
   } finally {
-    // Chiusura sicura della connessione
+    // @08 Chiusura sicura della connessione
     if (connection) await connection.close();
   }
 });
 
-// Avvio server e test DB
-app.listen(PORT, async () => {
+// -----------------------------------------------------------------------------
+// @01 Avvio server e test DB
+// -----------------------------------------------------------------------------
+const server = app.listen(PORT, async () => {
   console.log(`Server avviato su http://localhost:${PORT}`);
-  console.log('Esecuzione test DB all\'avvio...');
-  await testDbAtStartup(); // Stampa subito il risultato della query sul terminale
 
-  // Messaggio operativo finale
+  console.log('Esecuzione test DB all\'avvio...');
+  await testDbAtStartup(); // stampa subito il risultato della query
+
+  // @11 Messaggio operativo finale
   console.log(`[Info] Apri il browser e vai su http://localhost:${PORT} per visualizzare la tabella`);
+
+  // @12 Timeout chiusura server
+  resetServerTimeout(server);
 });

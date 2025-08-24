@@ -1,59 +1,64 @@
 <!DOCTYPE html>
+<!-- FILE  POSTA HTML STRUTTURA: @POSTA_HTML_NODE -->
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Protocolli – CIVILIA_Tb06_PROTOCOLLO</title>
 
-  <!-- Stile base integrato (può essere separato in style.css) -->
-  <style>
-    table { border-collapse: collapse; width: 100%; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    th { background-color: #f0f0f0; }
-    #searchInput { margin-bottom: 10px; padding: 6px; width: 50%; }
-  </style>
+  <!-- Link al CSS -->
+  <link rel="stylesheet" href="style.css" />
 
   <!--
-    ============================================================
-    Tabella Commenti - Actions & Bookmarks il file si chiama POSTA_HTML_NODE.html
-    ============================================================
-    Azione                                  | Segnalibro / Posizione nel Codice
-    ---------------------------------------------------------------------------
-    Caricamento dati (/dati)                | fetch('/dati') @fetch (in script.js)
-    Costruzione righe tabella               | dati.forEach -> createElement('tr') @renderRows
-    Inserimento nel tbody                   | tbody.appendChild(tr) @appendRows
-    Gestione errori fetch                   | .catch(...) @errorHandling
-    Segnalibro per header tabella           | id="tabella-dati" @table
-    Barra di ricerca                         | id="searchInput" @search
-    Funzione renderizzazione tabella        | function renderizzaTabella @renderFunction
-    Evento input per filtro in tempo reale  | addEventListener('input') @searchEvent
-    ============================================================
+    ==========================================================================================================================
+    Tabella riepilogativa dei segnalibri
+
+    | Attività                                 | Segnalibro HTML/JS            | Descrizione / Note
+    |------------------------------------------|-------------------------------|----------------------------------------------
+    | Titolo pagina                            | #bookmark-titolo              | Visualizza il titolo fisso della pagina
+    | Barra di ricerca                         | #bookmark-barra-ricerca       | Input per filtrare i dati in tempo reale
+    | Contenitore scrollable                   | #bookmark-scroll              | Contiene la tabella con scroll verticale
+    | Tabella dati                             | #bookmark-tabella             | Contiene <thead> e <tbody> per protocolli
+    | Intestazioni tabella                     | #bookmark-intestazioni        | Sticky, rimangono visibili durante lo scroll
+    | Righe tabella                            | #bookmark-righe               | Generate dinamicamente da script.js
+    | Inserimento righe                        | script.js (appendChild)       | Logica JS per appendere le righe
+    | Caricamento dati                         | script.js (fetch('/dati'))    | Richiesta dati dal server
+    | Gestione errori fetch                    | script.js (.catch(...))       | Gestione errori lato client
+    | Funzione render tabella                  | script.js (renderizzaTabella) | Genera righe da JSON
+    | Evento input filtro                      | script.js (addEventListener)  | Filtra dati in tempo reale
+    | Script logica e filtraggio               | script.js                     | Collegamento relativo
+  ==========================================================================================================================
   -->
 </head>
 <body>
-  <h1>Protocolli – CIVILIA_Tb06_PROTOCOLLO</h1>
+  <!-- Titolo pagina -->
+  <h1 id="bookmark-titolo">Protocolli – CIVILIA_Tb06_PROTOCOLLO</h1> <!-- @bookmark: titolo -->
 
-  <!-- Barra di ricerca @search -->
-  <input type="text" id="searchInput" placeholder="Cerca per Numero, Oggetto o Corrisp...">
+  <!-- Barra di ricerca -->
+  <input type="text" id="searchInput" placeholder="Cerca per Numero, Oggetto o Corrisp..."
+         id="bookmark-barra-ricerca"> <!-- @bookmark: barra-ricerca -->
 
-  <!-- Tabella dati protocolli @table -->
-  <table id="tabella-dati">
-    <thead>
-      <tr>
-        <th>NUMERO_PROTOC_lng</th>
-        <th>DATA_PROTOC_s</th>
-        <th>OGGETTO_m</th>
-        <th>CORRISPON_m</th>
-        <th>NOTE_s</th>
-        <th>IdOrd_lng</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Le righe della tabella saranno generate dal JavaScript in script.js -->
-    </tbody>
-  </table>
+  <!-- Contenitore scrollable per intestazioni sticky -->
+  <div class="table-container" id="bookmark-scroll"> <!-- @bookmark: contenitore-scroll -->
+    <!-- Tabella dati protocolli -->
+    <table id="tabella-dati" id="bookmark-tabella"> <!-- @bookmark: tabella-dati -->
+      <thead id="bookmark-intestazioni"> <!-- @bookmark: intestazioni-tabella -->
+        <tr>
+          <th>NUMERO_PROTOC_lng</th>
+          <th>DATA_PROTOC_s</th>
+          <th>OGGETTO_m</th>
+          <th>CORRISPON_m</th>
+          <th>NOTE_s</th>
+          <th>IdOrd_lng</th>
+        </tr>
+      </thead>
+      <tbody id="bookmark-righe"> <!-- @bookmark: righe-tabella -->
+        <!-- Righe generate dinamicamente da script.js -->
+      </tbody>
+    </table>
+  </div>
 
   <!-- Script separato per logica e filtraggio -->
-  <script src="script.js"></script>
+  <script src="script.js" id="bookmark-script"></script> <!-- @bookmark: script-logica -->
 </body>
 </html>

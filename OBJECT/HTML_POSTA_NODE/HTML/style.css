@@ -1,6 +1,52 @@
 /* ============================================================
-   style.css - Stile per POSTA_HTML_NODE.html
+   @style.css  - Stile per POSTA_HTML_NODE.html
    ============================================================ */
+
+
+/* ORGANIZZAZIONE DEL FILE CSS
+Ordine logico: Titolo → Barra di ricerca → Campi (Intestazioni e celle della tabella).
+Conferma dell’ordine funzionale:
+Titolo → sempre visibile in cima.
+Barra di ricerca → rimane subito sotto il titolo.
+Campi della tabella → intestazioni sticky nella tabella scrollabile, poi le celle e l’hover.
+Questo ordine è chiaro, leggibile e non influisce sul funzionamento della pagina,
+perché le regole CSS si applicano agli elementi indipendentemente dalla sequenza.
+*/
+
+
+/* --- Modifica: @Titolo@fisso in cima alla pagina ---
+     Questo codice rende il titolo <h1> “appiccicoso” durante lo scroll,
+     in modo che rimanga sempre visibile in cima alla pagina. --- */
+h1 {
+  position: sticky;   /* Rende l’elemento “appiccicoso”: resta visibile mentre scrolli il contenuto */
+  top: 0;             /* Distanza dall’alto della finestra/viewport: 0 = in cima */
+  background: white;  /* Colore di sfondo per coprire il contenuto che scorre sotto */
+  padding: 10px 0;    /* Spazio interno sopra e sotto il testo per renderlo leggibile */
+  margin: 0;          /* Nessuno spazio esterno: il titolo si appoggia esattamente al top */
+  z-index: 4;         /* Livello di sovrapposizione: più alto degli altri elementi della pagina */
+}
+
+/* @Barra@di@ricerca@fissa */
+#searchInput {
+  margin-bottom: 10px;
+  padding: 6px;
+  width: 50%;
+  font-size: 1em;
+  box-sizing: border-box;
+  /* --- Modifica: barra di ricerca fissata rispetto alla pagina --- */
+  position: sticky;
+  top: 50px; /* distanza dal titolo */
+  background: white;
+  z-index: 3;
+}
+
+/* Contenitore scrollabile per la tabella
+   --- Modifica: aggiunto per gestire intestazioni fisse --- */
+.table-container {
+  max-height: 600px; /* altezza visibile */
+  overflow-y: auto;  /* abilita lo scroll verticale */
+  border: 1px solid #ccc;
+}
 
 /* Stile base tabella */
 table {
@@ -8,25 +54,20 @@ table {
   width: 100%;
 }
 
+/* Intestazione tabella */
+thead th {
+  background-color: #f0f0f0;
+  /* --- Modifica: intestazioni fisse all'interno del contenitore scroll --- */
+  position: sticky;
+  top: 0; /* parte alta del contenitore */
+  z-index: 2; /* sovrapposizione sopra le righe */
+}
+
 /* Celle della tabella */
 th, td {
   border: 1px solid #ccc;
   padding: 8px;
   text-align: left;
-}
-
-/* Intestazione tabella */
-th {
-  background-color: #f0f0f0;
-}
-
-/* Barra di ricerca */
-#searchInput {
-  margin-bottom: 10px;
-  padding: 6px;
-  width: 50%;
-  font-size: 1em;
-  box-sizing: border-box;
 }
 
 /* Riga hover per maggiore leggibilità */

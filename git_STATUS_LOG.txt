@@ -2,16 +2,19 @@ On branch calcolo
 Your branch is up to date with 'origin/calcolo'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   Project_NUMERI_TELEFONICI_DIPENDENTI.sublime-project
-	modified:   Project_NUMERI_TELEFONICI_DIPENDENTI.sublime-workspace
+	modified:   OBJECT/HTML_POSTA_NODE/HTML/POSTA_HTML_NODE.html
+	deleted:    OBJECT/HTML_POSTA_NODE/HTML/a.txt
+	modified:   OBJECT/HTML_POSTA_NODE/HTML/script.js
+	modified:   OBJECT/HTML_POSTA_NODE/HTML/style.css
+	modified:   OBJECT/HTML_POSTA_NODE/Project_HTML_POSTA_NODE.sublime-workspace
+	modified:   OBJECT/HTML_POSTA_NODE/README_HTML_POSTA_NODE.MD
+	modified:   OBJECT/HTML_POSTA_NODE/server.js
 	modified:   git_STATUS_LOG.txt
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	OBJECT/HTML_POSTA.ZIP
-	OBJECT/HTML_POSTA/
-	OBJECT/HTML_POSTA_NODE/
+	OBJECT/HTML_POSTA_NODE/POSTA_HTML_NODE_OLD.html
 
 no changes added to commit (use "git add" and/or "git commit -a")
