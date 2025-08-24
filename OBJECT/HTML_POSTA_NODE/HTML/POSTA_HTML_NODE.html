@@ -31,18 +31,21 @@
   -->
 </head>
 <body>
-  <!-- Titolo pagina -->
-  <h1 id="bookmark-titolo">Protocolli – CIVILIA_Tb06_PROTOCOLLO</h1> <!-- @bookmark: titolo -->
+  <!-- Titolo pagina con IP a destra -->
+  <h1 id="bookmark-titolo" style="display:flex; justify-content: space-between; align-items: center;">
+    Protocolli – CIVILIA_Tb06_PROTOCOLLO
+    <span id="master-ip" style="font-size:0.8em; color:#555;"></span> <!-- @bookmark: ip -->
+  </h1>
 
   <!-- Barra di ricerca -->
-  <input type="text" id="searchInput" placeholder="Cerca per Numero, Oggetto o Corrisp..."
-         id="bookmark-barra-ricerca"> <!-- @bookmark: barra-ricerca -->
+  <input type="text" id="searchInput" data-bookmark="bookmark-barra-ricerca"
+         placeholder="Cerca per Numero, Oggetto o Corrisp...">
 
   <!-- Contenitore scrollable per intestazioni sticky -->
-  <div class="table-container" id="bookmark-scroll"> <!-- @bookmark: contenitore-scroll -->
+  <div class="table-container" data-bookmark="bookmark-scroll">
     <!-- Tabella dati protocolli -->
-    <table id="tabella-dati" id="bookmark-tabella"> <!-- @bookmark: tabella-dati -->
-      <thead id="bookmark-intestazioni"> <!-- @bookmark: intestazioni-tabella -->
+    <table id="tabella-dati" data-bookmark="bookmark-tabella">
+      <thead data-bookmark="bookmark-intestazioni">
         <tr>
           <th>NUMERO_PROTOC_lng</th>
           <th>DATA_PROTOC_s</th>
@@ -52,13 +55,13 @@
           <th>IdOrd_lng</th>
         </tr>
       </thead>
-      <tbody id="bookmark-righe"> <!-- @bookmark: righe-tabella -->
+      <tbody data-bookmark="bookmark-righe">
         <!-- Righe generate dinamicamente da script.js -->
       </tbody>
     </table>
   </div>
 
   <!-- Script separato per logica e filtraggio -->
-  <script src="script.js" id="bookmark-script"></script> <!-- @bookmark: script-logica -->
+  <script src="script.js" data-bookmark="bookmark-script"></script>
 </body>
 </html>
